@@ -1,0 +1,292 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Start page css
+ - Colors
+
+- Author:  Andrey Sokoltsov
+- Profile:	http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+
+/* Colors */
+.demopage-color{
+	color: #1397cf !important;
+}
+.demopage-color-hover:hover,
+.demopage-color-hover:focus{
+	color: #1397cf !important;
+}
+.demopage-bg{
+	background-color: #1397cf !important;
+}
+.demopage-bg-hover:hover,
+.demopage-bg-hover:focus{
+	background-color: #1397cf !important;
+}
+.demopage-border{
+	border-color: #1397cf !important;
+}
+.demopage-border-hover:hover,
+.demopage-border-hover:focus{
+	border-color: #1397cf !important;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.btn.active.focus, 
+.btn.active:focus, 
+.btn.focus, 
+.btn.focus:active, 
+.btn:active:focus, 
+.btn:focus{
+    outline: 0 none;
+}
+.sp-body{
+	overflow: hidden;
+}
+a{
+	-webkit-transition: all 300ms ease 0s;
+	-moz-transition: all 300ms ease 0s;
+	-o-transition: all 300ms ease 0s;
+	transition: all 300ms ease 0s;
+}
+a:focus{
+	outline: 0 none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+.paralax{
+	background-attachment: fixed !important;
+	background-position: 50% 100% !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+body{
+	font-family: 'Tw Cent', Tw Cent;
+}
+.demopage-header_title{
+	color: #fff;
+	float: left;
+	font-size: 30px;
+	letter-spacing: 6px;
+	line-height: 100%;
+	padding-bottom: 150px;
+	text-align: center;
+	width: 100%;
+	font-weight: 700;
+	margin: 0;
+}
+.demopage-header{
+	min-height: 700px;
+	padding-top: 200px;
+}
+.demopage-button{
+	border-color: #fff;
+	border-width: 2px;
+	clear: both;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	line-height: 100%;
+	margin: auto;
+	padding: 19px 0;
+	text-align: center;
+	width: 200px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+.demopage-button:hover,
+.demopage-button:focus{
+	color: #fff;
+}
+.demopage-content{
+	padding: 60px 0 0;
+}
+.demopage-title{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 100%;
+	text-align: center;
+	width: 100%;
+}
+.demopage-preview{
+	padding: 81px 140px 0;
+}
+.demopage-preview > div{
+	padding-bottom: 70px;
+}
+.demopage-preview_item{
+	background-image: url('../media/demo-page/mac.png');
+	display: block;
+	margin: 0 auto;
+	width: 370px;
+	height: 314px;
+	padding: 17px 18px 85px 16px;
+}
+.demopage-preview_inner{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.demopage-preview_inner img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	-webkit-transition: all 4s ease 0s;
+	-moz-transition: all 4s ease 0s;
+	-o-transition: all 4s ease 0s;
+	transition: all 4s ease 0s;
+}
+.demopage-preview_inner:hover img{
+	top: -198px;
+}
+.demopage-preview h3{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 100%;
+	margin: 0;
+	padding: 53px 0 29px;
+	text-align: center;
+}
+.demopage-button-additional{
+	border-width: 2px;
+	clear: both;
+	color: #555;
+	display: block;
+	font-size: 14px;
+	line-height: 100%;
+	margin: auto;
+	padding: 19px 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 200px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+.demopage-button-additional:hover,
+.demopage-button-additional:focus{
+	color: #fff;
+}
+.demopage-buynow{
+	border-top: 2px solid #ececec;
+	padding: 70px 0;
+	text-align: center;
+}
+.demopage-button-threed{
+	border: 0 none;
+	clear: both;
+	color: #fff;
+	font-size: 15px;
+	line-height: 100%;
+	margin: auto;
+	padding: 17px 68px 19px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+.demopage-button-threed:hover,
+.demopage-button-threed:focus{
+	color: #fff;
+	padding: 17px 75px 19px;;
+}
+.font-weight-bold{
+	font-weight: 700;
+}
+.demopage-helptitle{
+	background-color: #f6f6f6;
+	padding: 65px 0;
+}
+.demopage-helptitle h3{
+	font-size: 17px;
+	text-align: center;
+	margin: 0;
+}
+ul.demopage-help_list{
+	float: left;
+	padding: 0 19%;
+	width: 100%;
+}
+ul.demopage-help_list li:first-child{
+	border-left: 1px solid #eee;
+}
+ul.demopage-help_list li{
+	border-right: 1px solid #eee;
+	float: left;
+	width: 50%;
+}
+ul.demopage-help_list li a{
+	color: #333;
+	float: left;
+	font-size: 16px;
+	line-height: 100%;
+	padding: 55px 37px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
+}
+ul.demopage-help_list li a i{
+	font-size: 33px;
+	margin: 0 15px 0 0;
+	position: relative;
+	top: 5px;
+}
+.demopage-footer{
+	background-color: #333;
+	padding: 46px 0;
+}
+.demopage-copyright{
+	color: #ccc;
+	float: left;
+	font-size: 13px;
+	line-height: 100%;
+	text-align: center;
+	width: 100%;
+}
+.demopage-copyright i{
+	margin: 0 4px;
+}
+
+@media (max-width: 1199px){
+	.demopage-preview{
+		padding: 81px 40px 0;
+	}
+	ul.demopage-help_list{
+		padding: 0;
+	}
+	ul.demopage-help_list li{
+		width: 100%;
+	}
+	ul.demopage-help_list li a{
+		width: 100%;
+		text-align: center;
+	}
+	ul.demopage-help_list li{
+		border-left: 1px solid #eee;
+	}
+	ul.demopage-help_list li:first-child{
+		border-bottom: 1px solid #eee;
+	}
+}
+@media (max-width: 991px){
+	.demopage-preview{
+		padding: 81px 0px 0;
+	}
+}

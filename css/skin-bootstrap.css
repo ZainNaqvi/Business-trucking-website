@@ -1,0 +1,268 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Buttons
+ - Lists
+ - Forms
+
+- Author:  Andrey Sokoltsov
+- Profile:	http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+
+/* Buttons */
+.btn{
+	font-family: 'Tw Cent', Tw Cent;
+	font-weight:700;
+	position:relative;
+	font-size:12px;
+	padding:15px 30px;
+	border:none;
+	text-transform:uppercase;
+	border-radius:0px;
+}
+.btn:after{
+	content:"";
+	background:#fff;
+	display:block;
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	width:4px;
+	opacity:0.5;
+	transition: 0.4s;
+	transition-timing-function: cubic-bezier(.36,.99,.47,1.09);
+}
+.btn:hover:after{
+	width:100%;
+}
+.btn.btn-sm:after, .btn.btn-lg:after{
+	display:none;
+}
+.btn.btn-sm.btn-default:hover, .btn.btn-sm.btn-primary:hover, .btn.btn-sm.btn-success:hover, .btn.btn-sm.btn-info:hover, .btn.btn-sm.btn-warning:hover, .btn.btn-sm.btn-danger:hover, .btn.btn-sm.btn-link:hover{
+	background:none;
+}
+
+.btn.btn-sm{
+	font-weight:400;
+	padding:10px 20px 8px 20px;
+	border:1px solid #eeeeee;
+	font-size:11px;
+}
+.btn.btn-lg{
+	padding:10px 35px;
+	border:1px solid #fff;
+	border-right:4px solid #fff;
+}
+.btn.btn-sm:before{
+	content:"";
+	display:block;
+	position:absolute;
+	right:0px;
+	top:-1px;
+	bottom:-1px;
+	width:4px;
+	opacity:1;
+	transition: 0.4s;
+	transition-timing-function: cubic-bezier(.36,.99,.69,1.2);
+	z-index:1;
+}
+.btn.btn-sm:hover:before{
+	width:100%;
+	z-index:-1;
+}
+p{
+	font-size:13px;
+	line-height:22px;
+	margin-bottom:20px;
+}
+h1{
+	margin-top:0px;
+	font-size:24px;
+	margin-bottom:40px;
+}
+h1.italic{
+	font-size:22px;
+	font-weight:400;
+}
+h4{
+	font-size:16px;
+	margin-bottom:20px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Tw Cent', Tw Cent;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.form-control{
+	border-radius:0;
+	border:0;
+	box-shadow:none;
+	padding:12px;
+	height:auto;
+}
+textarea.form-control{
+	min-height:100px;
+}
+.form-control:focus{
+	border:none;
+	box-shadow:none;
+}
+/* Lists */
+.nav-tabs{
+	text-align:center;
+	border:none;
+}
+ul.styled{
+	margin:0px;
+	padding:0px;
+}
+ul.styled > li{
+	position:relative;
+	background:#f5f5f5;
+	list-style:none;
+	margin-bottom:6px;
+}
+ul.styled li > ul{
+	display:none;
+	position:absolute;
+	z-index:2;
+	width:100%;
+	padding:0;
+	left:0;
+	background:#e3e3e3;
+	padding:20px 15px;
+	padding-top:0;
+	padding-left:35px;
+	border-bottom:4px solid;
+	font-size:12px;
+	text-transform:uppercase;
+}
+ul.styled li > ul > li{
+	list-style:none;
+}
+ul.styled li > ul > li + li{
+	margin-top:10px;
+	display:block;
+}
+ul.styled li:hover > ul{
+	display:block;
+}
+ul.styled > li.active > a{
+	color:#fff;
+}
+ul.styled > li:hover{
+	background:#e3e3e3;
+}
+ul.styled > li.active:after{
+	background:#fff;
+	opacity:0.5;
+}
+ul.styled > li:after{
+	content:"";
+	display:block;
+	width:4px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	background:#e3e3e3;
+}
+ul.styled > li > a{
+	display:block;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family: 'Tw Cent', Tw Cent;
+	font-weight:700;
+	font-size:12px;
+	padding:20px 10px 20px 35px;
+}
+
+.nav-tabs > li{
+	float:none;
+	display:inline-block;
+	border:1px solid #eee;
+	border-right:4px solid #eee;
+	margin-right:5px;
+	background:#fff;
+}
+.nav-tabs > li + li{
+	margin-top:20px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	color:#fff;
+	cursor:default;
+	border:none;
+}
+.nav-tabs > li.active > a:after{
+	content:"";
+	display:block;
+	position:absolute;
+	width:4px;
+	top:-1px;
+	bottom:-1px;
+	right:-4px;
+	background:#fff;
+	opacity:0.5;
+}
+.nav-tabs > li > a{
+	position:relative;
+	border:none;
+	border-radius:0;
+	margin-right:0px;
+	text-transform:uppercase;
+	font-family: 'Tw Cent', Tw Cent;
+	font-weight:700;
+	font-size:12px;
+	padding:15px 30px;
+}
+/* Forms */
+.form-elem + .form-elem{
+	margin-top:15px;
+}
+.row > div.form-elem + div.form-elem{
+	margin-top:0;
+}
+.default-inp{
+	display:block;
+	width:100%;
+	border:1px solid #eee;
+	position:relative;
+}
+.default-inp:after{
+	width:5px;
+	right:-1px;
+	top:-1px;
+	bottom:-1px;
+	content:"";
+	display:block;
+	position:absolute;
+	background-color:rgba(136, 136, 136, 0.2);
+}
+.default-inp input{
+	display:block;
+	border:none;
+	padding:0 25px;
+	height:50px;
+	line-height:50px;
+}
+.default-inp textarea{
+	display:block;
+	border:none;
+	padding:15px 25px;
+	resize:none;
+	min-height:185px;
+}
+.default-inp i{
+	position:absolute;
+	right:32px;
+	top:16px;
+	width:auto;
+}
+.form-elem input, .form-elem textarea{
+	width:100%;
+}
+
+	

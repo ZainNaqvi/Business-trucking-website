@@ -1,0 +1,188 @@
+/* Start: Recommended Isotope styles */
+
+.isotope-item {
+	z-index: 2;
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-ms-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	-ms-transition-property: -ms-transform, opacity;
+	-o-transition-property: top, left, opacity;
+	transition-property: transform, opacity;
+}
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
+}
+.isotope.infinite-scrolling {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+
+/*#filter {
+	height: 80px;
+	margin-top: 55px;
+	margin-bottom: 21px;
+	padding-left: 0px;
+}
+
+#filter li {
+	display: inline-block;
+	list-style: none;
+	margin: 0px 3px;
+}
+#filter li a {
+	border: 2px solid #ececec;
+	color: #333;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0px;
+	overflow: hidden;
+	padding: 9px 21px 8px;
+	position: relative;
+	text-transform: uppercase;
+	transition: all 0.4s ease 0s;
+
+}
+#filter li a:hover, #filter li a.current {
+	color: #fff;
+}*/
+
+.isotope-skin2  .isotope-item{
+	margin:1% ;
+	width: 31.18%;
+}
+
+/*.isotope-item {
+	width: 24.99%;
+}*/
+
+
+.isotope-item img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.isotope-item:hover .slide-desc {
+	opacity: 1;
+}
+.isotope-item .slide-desc {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+	left: 0px;
+	position: absolute;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	color: #fff;
+	opacity: 0;
+	overflow: hidden;
+	text-align:center;
+}
+
+
+.isotope-item .slide-desc table,.isotope-item .slide-desc td{
+	border:none;
+	height:100%;
+	width:100%;
+	background:none;
+
+}
+
+/* 0.7 X-carousel */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+	z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-ms-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property:    -moz-transform, opacity;
+	-ms-transition-property:     -ms-transform, opacity;
+	-o-transition-property:      -o-transform, opacity;
+	transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}

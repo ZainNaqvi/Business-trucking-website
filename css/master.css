@@ -1,0 +1,35 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+- MAIN CSS
+- FONTS
+- PLUGIN CSS
+
+Author:     Andrey Sokoltsov
+Profile:    http://themeforest.net/user/andreysokoltsov
+-------------------------------------------------------------------*/
+
+/* MAIN CSS */
+@import url('bootstrap.min.css');
+@import url('skin-bootstrap.css');
+@import url('font-awesome.min.css');
+@import url('theme.css');
+@import url('responsive.css');
+@import url('animate.css');
+@import url('color.css');
+
+
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,900,700italic,400italic,500,500italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('../fonts/flaticon/flaticon.css');
+
+
+
+/* PLUGIN CSS */
+@import url('../assets/loader/css/loader.css');
+@import url('../assets/owl-carousel/owl.carousel.css');
+@import url('../assets/owl-carousel/owl.theme.css');
+@import url('../assets/isotope/isotope.css');
+
